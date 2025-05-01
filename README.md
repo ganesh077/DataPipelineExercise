@@ -40,21 +40,3 @@ Processed data is stored in Parquet format, partitioned by `service` and `date`.
 2.  **Generate Logs:** Run `generator.py` to start producing service telemetry logs.
 3.  **Run the Dashboard:** Execute `dashboard.py` using Streamlit (`streamlit run dashboard.py`).
 4.  **View Metrics:** Access the Streamlit dashboard in your browser to visualize service metrics and SLO violations.
-
-## Stretch Goals (Not Implemented)
-
-The exercise also suggests the following stretch goals:
-
-* Create a status dashboard with green/yellow/red indicators.
-* Add auto-scaling simulation.
-* Integrate with orchestration tools like Airflow or Dagster.
-
-## Interview Value
-
-This project demonstrates practical skills in:
-
-* Logging and monitoring
-* Data pipeline development
-* Observability and SRE concepts
-
-It aligns with real-world systems used at high-scale companies.
